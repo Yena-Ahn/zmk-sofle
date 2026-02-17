@@ -28,6 +28,11 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
+&mt {
+    tapping-term-ms = <250>;
+    flavor = "tap-preferred";
+};
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
