@@ -170,7 +170,7 @@ layers:
   - '6'
   - {t: '=', s: +}
   - KP MULTIPLY
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
